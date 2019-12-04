@@ -1,2 +1,1 @@
-# axcan
-Today's tonalpohualli date
+# tonalpohualli

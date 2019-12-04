@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>Tonalpohualli</title>
+  
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css" >
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+                <meta name="HandheldFriendly" content="true" />    
+	
+		<script language="JavaScript" src="../vvvv.js/lib/jquery/jquery-1.8.2.min.js"></script>
+                <script language="JavaScript" src="../vvvv.js/lib/require.js"></script>
+		<script language="JavaScript" src="../vvvv.js/vvvv.js"></script>
+		<link rel="Stylesheet" href="../vvvv.js/vvvviewer/vvvv.css"/>
+                <link rel="VVVV" href="patch.v4p"/>
+		<script language="JavaScript">
+			$(document).ready(function() {
+				VVVVContext.init("../vvvv.js", "full", function() {
+					console.log('VVVV.js ready.');
+				 });
+			 });
+		</script>
+		
+	<style>
+		
+	#currentdate{
+		display:none;
+		}
+	#date{
+		text-align:center;
+		}
+	</style>
+		
+
+	 </head>
+	 <body>
+		
+		<div class="CanvasDiv">
+                <div id="RendererMain"></div>
+		</div>
+		 <p id="currentdate"></p>
+		 <p><input type="date" id="date"></p>
+		 
+		<script>
+			{
+  			var d = new Date();
+ 			var n = d.toLocaleDateString();
+  			document.getElementById("currentdate").innerHTML = n;			
+			}
+			</script>
+	 </body>
+</html>
