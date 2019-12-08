@@ -135,7 +135,7 @@
   </PIN>
   </NODE>
   <NODE id="74" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3270" top="11910" width="100" height="100">
+  <BOUNDS type="Node" left="8430" top="14985" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Intersperse String" visible="1" values="| |">
   </PIN>
@@ -1432,6 +1432,152 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="190" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7065" top="12180" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|Ce|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|Ome|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|Yei|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|Nahui|">
+  </PIN>
+  <PIN pinname="Input 5" visible="1" values="|Macuili|">
+  </PIN>
+  <PIN pinname="Input 6" visible="1" values="|Chicuace|">
+  </PIN>
+  <PIN pinname="Input 7" visible="1" values="|Chicome|">
+  </PIN>
+  <PIN pinname="Input 8" visible="1" values="|Chicueyi|">
+  </PIN>
+  <PIN pinname="Input 9" visible="1" values="|Chicnahui|">
+  </PIN>
+  <PIN pinname="Input 10" visible="1" values="|Mahtlactli|">
+  </PIN>
+  <PIN pinname="Input 11" visible="1" values="|Mahtlactlice|">
+  </PIN>
+  <PIN pinname="Input 12" visible="1" values="|Mahtlactliome|">
+  </PIN>
+  <PIN pinname="Input 13" visible="1" values="|Mahtlactliyei|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|13|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="191" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6990" top="13560" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="192" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11955" top="13410" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="193" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10380" top="12120" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|Ce|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|Ome|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|Yei|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|Nahui|">
+  </PIN>
+  <PIN pinname="Input 5" visible="1" values="|Macuili|">
+  </PIN>
+  <PIN pinname="Input 6" visible="1" values="|Chicuace|">
+  </PIN>
+  <PIN pinname="Input 7" visible="1" values="|Chicome|">
+  </PIN>
+  <PIN pinname="Input 8" visible="1" values="|Chicueyi|">
+  </PIN>
+  <PIN pinname="Input 9" visible="1" values="|Chicnahui|">
+  </PIN>
+  <PIN pinname="Input 10" visible="1" values="|Mahtlactli|">
+  </PIN>
+  <PIN pinname="Input 11" visible="1" values="|Mahtlactlice|">
+  </PIN>
+  <PIN pinname="Input 12" visible="1" values="|Mahtlactliome|">
+  </PIN>
+  <PIN pinname="Input 13" visible="1" values="|Mahtlactliyei|">
+  </PIN>
+  <PIN pinname="Input 14" visible="1" values="|Mahtlactlinahui|">
+  </PIN>
+  <PIN pinname="Input 15" visible="1" values="|Caxtolli|">
+  </PIN>
+  <PIN pinname="Input 16" visible="1" values="|Caxtollice|">
+  </PIN>
+  <PIN pinname="Input 17" visible="1" values="|Caxtolliome|">
+  </PIN>
+  <PIN pinname="Input 18" visible="1" values="|Caxtolliyei|">
+  </PIN>
+  <PIN pinname="Input 19" visible="1" values="|Caxtollinahui|">
+  </PIN>
+  <PIN pinname="Input 20" visible="1" values="|Cempohualli|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|20|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="194" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12195" top="14700" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Intersperse String" visible="1" values="| |">
+  </PIN>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="195" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="17850" top="13890" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="196" nodename="Add (String)" systemname="Add (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="18090" top="15180" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Intersperse String" visible="1" values="| |">
+  </PIN>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="28" srcpinname="Output" dstnodeid="23" dstpinname="Day">
   </LINK>
   <LINK srcnodeid="27" srcpinname="Output" dstnodeid="23" dstpinname="Month">
@@ -1449,8 +1595,6 @@
   <LINK srcnodeid="21" srcpinname="Layers Out" dstnodeid="31" dstpinname="Element">
   </LINK>
   <LINK srcnodeid="31" srcpinname="Text" dstnodeid="69" dstpinname="Input String">
-  </LINK>
-  <LINK srcnodeid="70" srcpinname="Output" dstnodeid="74" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="72" srcpinname="Output" dstnodeid="74" dstpinname="Input 2">
   </LINK>
@@ -1582,8 +1726,6 @@
   </LINK>
   <LINK srcnodeid="166" srcpinname="Output" dstnodeid="163" dstpinname="Text">
   </LINK>
-  <LINK srcnodeid="130" srcpinname="Output" dstnodeid="166" dstpinname="Input 1">
-  </LINK>
   <LINK srcnodeid="167" srcpinname="Style Out" dstnodeid="163" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="169" srcpinname="Layers Out" dstnodeid="168" dstpinname="Parent">
@@ -1609,8 +1751,6 @@
   <LINK srcnodeid="75" srcpinname="Style Out" dstnodeid="169" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="146" srcpinname="Output" dstnodeid="172" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="148" srcpinname="Output" dstnodeid="177" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="173" srcpinname="Output" dstnodeid="171" dstpinname="Attribute Value">
   </LINK>
@@ -1642,8 +1782,34 @@
   </LINK>
   <LINK srcnodeid="70" srcpinname="Output" dstnodeid="183" dstpinname="Input 1">
   </LINK>
+  <LINK srcnodeid="190" srcpinname="Output" dstnodeid="191" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="80" srcpinname="Output" dstnodeid="191" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="191" srcpinname="Output" dstnodeid="74" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="74" srcpinname="Output" dstnodeid="188" dstpinname="Input 1">
+  </LINK>
   <LINK srcnodeid="72" srcpinname="Output" dstnodeid="184" dstpinname="Input 2">
   </LINK>
-  <LINK srcnodeid="72" srcpinname="Output" dstnodeid="188" dstpinname="Input 1">
+  <LINK srcnodeid="135" srcpinname="Output" dstnodeid="192" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="193" srcpinname="Output" dstnodeid="192" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="192" srcpinname="Output" dstnodeid="194" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="130" srcpinname="Output" dstnodeid="194" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="194" srcpinname="Output" dstnodeid="166" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="195" srcpinname="Output" dstnodeid="196" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="190" srcpinname="Output" dstnodeid="195" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="151" srcpinname="Output" dstnodeid="195" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="148" srcpinname="Output" dstnodeid="196" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="196" srcpinname="Output" dstnodeid="177" dstpinname="Input 1">
   </LINK>
   </PATCH>
