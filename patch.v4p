@@ -435,7 +435,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|0|">
+  <PIN pinname="Input 2" visible="1" values="|4|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -455,11 +455,11 @@
   </PIN>
   </NODE>
   <NODE id="50" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="11100" top="15750" width="100" height="100">
+  <BOUNDS type="Node" left="11085" top="15750" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|16|">
+  <PIN pinname="Input 2" visible="1" values="|3|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
