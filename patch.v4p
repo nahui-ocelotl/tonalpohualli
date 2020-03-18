@@ -407,9 +407,9 @@
   </PIN>
   </NODE>
   <NODE id="44" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="25905" top="15930" width="100" height="100">
+  <BOUNDS type="Node" left="28440" top="13440" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input" visible="1" values="|Mahtlactliyei|,|Mahtlactliome|,|Mahtlactlice|,|Mahtlactli|,|Chicnahui|,|Chicuei|,|Chicome|,|Chicuace|,|Macuilli|,|Nahui|,|Yei|,|Ome|,|Ce|">
+  <PIN pinname="Input" visible="1">
   </PIN>
   <PIN pinname="Bin Size" visible="1">
   </PIN>
@@ -435,7 +435,7 @@
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|4|">
+  <PIN pinname="Input 2" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -771,7 +771,7 @@
   </PIN>
   </NODE>
   <NODE id="73" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="23730" top="13575" width="100" height="100">
+  <BOUNDS type="Node" left="23730" top="12885" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|0.24000000000000005|">
   </PIN>
@@ -831,7 +831,7 @@
   <NODE id="76" nodename="EQ (String)" systemname="EQ (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="25560" top="14355" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|Mahtlactliyei|,|Mahtlactliome|,|Mahtlactlice|,|Mahtlactli|,|Chicnahui|,|Chicuei|,|Chicome|,|Chicuace|,|Macuilli|,|Nahui|,|Yei|,|Ome|,|Ce|">
+  <PIN pinname="Input 1" visible="1">
   </PIN>
   <PIN pinname="Input 2" visible="1">
   </PIN>
@@ -841,11 +841,11 @@
   </PIN>
   </NODE>
   <NODE id="77" nodename="I (Spreads)" systemname="I (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="24600" top="13965" width="100" height="100">
+  <BOUNDS type="Node" left="24600" top="13800" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="[ From .." visible="1" values="|12|">
+  <PIN pinname="[ From .." visible="1" values="|0|">
   </PIN>
-  <PIN pinname=".. To [" visible="1" values="|0|">
+  <PIN pinname=".. To [" visible="1" values="|13|">
   </PIN>
   <PIN pinname="Phase" visible="1">
   </PIN>
@@ -865,7 +865,7 @@
   <NODE id="79" nodename="EQ (String)" systemname="EQ (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="35865" top="9390" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|Xochitl|,|Quiahuitl|,|Tecpatl|,|Ollin|,|Cozcacuauhtli|,|Cuauhtli|,|Ocelotl|,|Acatl|,|Malinali|,|Ozomahtli|,|Itzcuintli|,|Atl|,|Tochtli|,|Mazatl|,|Miquiztli|,|Coatl|,|Cuetzpallin|,|Calli|,|Ehecatl|,|Cipactli|">
+  <PIN pinname="Input 1" visible="1">
   </PIN>
   <PIN pinname="Input 2" visible="1">
   </PIN>
@@ -875,11 +875,11 @@
   </PIN>
   </NODE>
   <NODE id="80" nodename="I (Spreads)" systemname="I (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="35040" top="9435" width="100" height="100">
+  <BOUNDS type="Node" left="34695" top="8895" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="[ From .." visible="1" values="|19|">
+  <PIN pinname="[ From .." visible="1" values="|0|">
   </PIN>
-  <PIN pinname=".. To [" visible="1" values="|0|">
+  <PIN pinname=".. To [" visible="1" values="|20|">
   </PIN>
   <PIN pinname="Phase" visible="1">
   </PIN>
@@ -1207,9 +1207,9 @@
   </PIN>
   </NODE>
   <NODE id="121" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="3615" top="1215" width="0" height="0">
+  <BOUNDS type="Box" left="38910" top="4065" width="0" height="0">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|0|">
+  <PIN pinname="Y Input Value" visible="1" values="|-5|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -1259,7 +1259,7 @@
   </PIN>
   </NODE>
   <NODE id="136" nodename="NegativeIndex.v4p" systemname="NegativeIndex" filename="NegativeIndex.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="4815" top="2355" width="100" height="100">
+  <BOUNDS type="Node" left="40155" top="5220" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Index" visible="1">
   </PIN>
@@ -1269,7 +1269,7 @@
   </PIN>
   </NODE>
   <NODE id="140" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="945" top="2340" width="100" height="100">
+  <BOUNDS type="Node" left="36285" top="5205" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|Cipactli|">
   </PIN>
@@ -1317,7 +1317,7 @@
   </PIN>
   </NODE>
   <NODE id="141" nodename="I (Spreads)" systemname="I (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6360" top="1770" width="420" height="100">
+  <BOUNDS type="Node" left="40545" top="4530" width="420" height="100">
   </BOUNDS>
   <PIN pinname="[ From .." visible="1">
   </PIN>
@@ -1329,7 +1329,7 @@
   </PIN>
   </NODE>
   <NODE id="142" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2325" top="3690" width="100" height="100">
+  <BOUNDS type="Node" left="37665" top="6555" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -1341,13 +1341,69 @@
   </PIN>
   </NODE>
   <NODE id="145" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="1545" top="4725" width="2355" height="0">
+  <BOUNDS type="Box" left="36885" top="7590" width="2355" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
   <PIN pinname="Input String" visible="1">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="146" nodename="I (Spreads)" systemname="I (Spreads)" componentmode="Hidden">
+  <BOUNDS type="Node" left="40935" top="5775" width="420" height="100">
+  </BOUNDS>
+  <PIN pinname="[ From .." visible="1">
+  </PIN>
+  <PIN pinname=".. To [" visible="1" values="|13|">
+  </PIN>
+  <PIN pinname="Phase" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="147" nodename="NegativeIndex.v4p" systemname="NegativeIndex" filename="NegativeIndex.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="40170" top="6390" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Spread" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="149" nodename="Cons (String)" systemname="Cons (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="27990" top="11550" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|Ce|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|Ome|">
+  </PIN>
+  <PIN pinname="Input 3" visible="1" values="|Yei|">
+  </PIN>
+  <PIN pinname="Input 4" visible="1" values="|Nahui|">
+  </PIN>
+  <PIN pinname="Input 5" visible="1" values="|Macuilli|">
+  </PIN>
+  <PIN pinname="Input 6" visible="1" values="|Chicuace|">
+  </PIN>
+  <PIN pinname="Input 7" visible="1" values="|Chicome|">
+  </PIN>
+  <PIN pinname="Input 8" visible="1" values="|Chicueyi|">
+  </PIN>
+  <PIN pinname="Input 9" visible="1" values="|Chicnahui|">
+  </PIN>
+  <PIN pinname="Input 10" visible="1" values="|Matlactli|">
+  </PIN>
+  <PIN pinname="Input 11" visible="1" values="|Matlactlice|">
+  </PIN>
+  <PIN pinname="Input 12" visible="1" values="|Matlactliome|">
+  </PIN>
+  <PIN pinname="Input 13" visible="1" values="|Matlactliyei|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|13|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1405,8 +1461,6 @@
   <LINK srcnodeid="36" srcpinname="Output" dstnodeid="37" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="37" srcpinname="Output" dstnodeid="38" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="92" srcpinname="Output" dstnodeid="44" dstpinname="Index">
   </LINK>
   <LINK srcnodeid="93" srcpinname="Output" dstnodeid="45" dstpinname="Index">
   </LINK>
@@ -1476,8 +1530,6 @@
   </LINK>
   <LINK srcnodeid="76" srcpinname="Output" dstnodeid="78" dstpinname="Select">
   </LINK>
-  <LINK srcnodeid="45" srcpinname="Output" dstnodeid="79" dstpinname="Input 2">
-  </LINK>
   <LINK srcnodeid="80" srcpinname="Output" dstnodeid="81" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="79" srcpinname="Output" dstnodeid="81" dstpinname="Select">
@@ -1487,8 +1539,6 @@
   <LINK srcnodeid="44" srcpinname="Output" dstnodeid="82" dstpinname="Text">
   </LINK>
   <LINK srcnodeid="85" srcpinname="Transform Out" dstnodeid="84" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="45" srcpinname="Output" dstnodeid="84" dstpinname="Text">
   </LINK>
   <LINK srcnodeid="87" srcpinname="Transform Out" dstnodeid="86" dstpinname="Transform">
   </LINK>
@@ -1569,5 +1619,21 @@
   <LINK srcnodeid="136" srcpinname="Slice" dstnodeid="142" dstpinname="Index">
   </LINK>
   <LINK srcnodeid="142" srcpinname="Output" dstnodeid="145" dstpinname="Input String">
+  </LINK>
+  <LINK srcnodeid="145" srcpinname="Output String" dstnodeid="79" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="140" srcpinname="Output" dstnodeid="79" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="145" srcpinname="Output String" dstnodeid="84" dstpinname="Text">
+  </LINK>
+  <LINK srcnodeid="146" srcpinname="Output" dstnodeid="147" dstpinname="Spread">
+  </LINK>
+  <LINK srcnodeid="121" srcpinname="Y Output Value" dstnodeid="147" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="147" srcpinname="Slice" dstnodeid="44" dstpinname="Index">
+  </LINK>
+  <LINK srcnodeid="149" srcpinname="Output" dstnodeid="76" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="149" srcpinname="Output" dstnodeid="44" dstpinname="Input">
   </LINK>
   </PATCH>
