@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="24585">
+  <BOUNDS type="Window" width="20190" height="24585">
   </BOUNDS>
   <NODE id="1" nodename="EQ (String)" systemname="EQ (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="20355" top="6255" width="100" height="100">
@@ -1207,7 +1207,7 @@
   </PIN>
   </NODE>
   <NODE id="117" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3555" top="390" width="100" height="100">
+  <BOUNDS type="Node" left="3150" top="900" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|1|">
   </PIN>
@@ -1229,7 +1229,7 @@
   <NODE id="121" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
   <BOUNDS type="Box" left="1275" top="855" width="0" height="0">
   </BOUNDS>
-  <PIN pinname="Y Input Value" visible="1" values="|3|">
+  <PIN pinname="Y Input Value" visible="1" values="|0|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -1294,6 +1294,26 @@
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="138" nodename="NegativeIndex (String).v4p" systemname="NegativeIndex (String)" filename="NegativeIndex (String).v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="5700" top="3060" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Spread" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="139" nodename="NegativeIndex (Spreads).v4p" systemname="NegativeIndex (Spreads)" filename="NegativeIndex (Spreads).v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="6075" top="4485" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Spread" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
