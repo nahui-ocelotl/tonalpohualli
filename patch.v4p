@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="29385">
+  <BOUNDS type="Window" width="20235" height="29490">
   </BOUNDS>
   <NODE id="4" nodename="AsValue (String)" systemname="AsValue (String)" componentmode="Hidden">
   <BOUNDS type="Node" left="6030" top="5250" width="100" height="100">
@@ -33,7 +33,7 @@
   </PIN>
   </NODE>
   <NODE id="8" nodename="GetValue (HTML)" systemname="GetValue (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3945" top="1380" width="100" height="100">
+  <BOUNDS type="Node" left="2940" top="1500" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
@@ -1114,24 +1114,12 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="167" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8310" top="8280" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|13|">
-  </PIN>
-  <PIN pinname="Input 2" visible="1" values="|14|">
-  </PIN>
-  <PIN pinname="Input Count" visible="0" values="|2|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="168" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
   <BOUNDS type="Node" left="8160" top="8910" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|3|">
+  <PIN pinname="Input 2" visible="1">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -1274,6 +1262,84 @@
   <PIN pinname="Property Name" visible="1" values="|text-decoration|">
   </PIN>
   <PIN pinname="Property Value" visible="1" values="|none|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="185" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="14040" top="6195" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="186" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="1890" top="5925" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="188" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="5760" top="8820" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="189" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="3735" top="7950" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="190" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="10380" top="7650" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="191" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8970" top="7740" width="270" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1" values="|13|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|16|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="192" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="8640" top="8340" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|10|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -1442,8 +1508,6 @@
   </LINK>
   <LINK srcnodeid="166" srcpinname="Output" dstnodeid="103" dstpinname="Input">
   </LINK>
-  <LINK srcnodeid="167" srcpinname="Output" dstnodeid="168" dstpinname="Input 1">
-  </LINK>
   <LINK srcnodeid="168" srcpinname="Output" dstnodeid="159" dstpinname="Input 2">
   </LINK>
   <LINK srcnodeid="25" srcpinname="Output" dstnodeid="28" dstpinname="Input">
@@ -1479,5 +1543,21 @@
   <LINK srcnodeid="142" srcpinname="Output" dstnodeid="84" dstpinname="Text">
   </LINK>
   <LINK srcnodeid="142" srcpinname="Output" dstnodeid="79" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="24" srcpinname="Text" dstnodeid="185" dstpinname="Input String">
+  </LINK>
+  <LINK srcnodeid="8" srcpinname="Output" dstnodeid="186" dstpinname="Input String">
+  </LINK>
+  <LINK srcnodeid="166" srcpinname="Output" dstnodeid="188" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="153" srcpinname="Time" dstnodeid="189" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="162" srcpinname="Time" dstnodeid="190" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="162" srcpinname="Time" dstnodeid="168" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="191" srcpinname="Output" dstnodeid="192" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="192" srcpinname="Output" dstnodeid="168" dstpinname="Input 2">
   </LINK>
   </PATCH>
