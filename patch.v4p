@@ -433,7 +433,7 @@
   </PIN>
   </NODE>
   <NODE id="72" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="13590" top="18675" width="100" height="100">
+  <BOUNDS type="Node" left="13605" top="17940" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1" values="|0.25000000000000006|">
   </PIN>
@@ -515,7 +515,7 @@
   </PIN>
   </NODE>
   <NODE id="74" nodename="GetSlice (Spreads)" systemname="GetSlice (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="13620" top="19275" width="100" height="100">
+  <BOUNDS type="Node" left="13635" top="18540" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -527,7 +527,7 @@
   </PIN>
   </NODE>
   <NODE id="75" nodename="GetSlice (Spreads)" systemname="GetSlice (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4050" top="22875" width="100" height="100">
+  <BOUNDS type="Node" left="4185" top="22320" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -539,7 +539,7 @@
   </PIN>
   </NODE>
   <NODE id="76" nodename="EQ (String)" systemname="EQ (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5580" top="21855" width="100" height="100">
+  <BOUNDS type="Node" left="5910" top="21435" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -551,7 +551,7 @@
   </PIN>
   </NODE>
   <NODE id="77" nodename="I (Spreads)" systemname="I (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4950" top="21885" width="100" height="100">
+  <BOUNDS type="Node" left="5280" top="21465" width="100" height="100">
   </BOUNDS>
   <PIN pinname="[ From .." visible="1" values="|0|">
   </PIN>
@@ -563,7 +563,7 @@
   </PIN>
   </NODE>
   <NODE id="78" nodename="Select (Value)" systemname="Select (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4920" top="22440" width="100" height="100">
+  <BOUNDS type="Node" left="5250" top="22020" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -573,7 +573,7 @@
   </PIN>
   </NODE>
   <NODE id="79" nodename="EQ (String)" systemname="EQ (String)" componentmode="Hidden">
-  <BOUNDS type="Node" left="17325" top="19170" width="100" height="100">
+  <BOUNDS type="Node" left="17340" top="18435" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -585,7 +585,7 @@
   </PIN>
   </NODE>
   <NODE id="80" nodename="I (Spreads)" systemname="I (Spreads)" componentmode="Hidden">
-  <BOUNDS type="Node" left="16830" top="19695" width="100" height="100">
+  <BOUNDS type="Node" left="16845" top="18960" width="100" height="100">
   </BOUNDS>
   <PIN pinname="[ From .." visible="1" values="|0|">
   </PIN>
@@ -597,7 +597,7 @@
   </PIN>
   </NODE>
   <NODE id="81" nodename="Select (Value)" systemname="Select (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="15675" top="19140" width="100" height="100">
+  <BOUNDS type="Node" left="15690" top="18405" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -765,7 +765,7 @@
   </PIN>
   <PIN pinname="Input 1" visible="1">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="| días vivídos|">
+  <PIN pinname="Input 2" visible="1" values="| days lived|">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|2|">
   </PIN>
@@ -1344,6 +1344,26 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="193" nodename="Damper (Animation)" systemname="Damper (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="14085" top="19245" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Go To Position" visible="1">
+  </PIN>
+  <PIN pinname="FilterTime" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="194" nodename="Damper (Animation)" systemname="Damper (Animation)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4770" top="22935" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Go To Position" visible="1">
+  </PIN>
+  <PIN pinname="FilterTime" visible="1" values="|0.5|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="15" srcpinname="Output" dstnodeid="4" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="7" srcpinname="Layers Out" dstnodeid="8" dstpinname="Element">
@@ -1365,8 +1385,6 @@
   <LINK srcnodeid="58" srcpinname="Output X" dstnodeid="56" dstpinname="X">
   </LINK>
   <LINK srcnodeid="58" srcpinname="Output Y" dstnodeid="56" dstpinname="Y">
-  </LINK>
-  <LINK srcnodeid="74" srcpinname="Output" dstnodeid="58" dstpinname="Phase">
   </LINK>
   <LINK srcnodeid="62" srcpinname="Output" dstnodeid="59" dstpinname="Filename">
   </LINK>
@@ -1402,13 +1420,9 @@
   </LINK>
   <LINK srcnodeid="71" srcpinname="Output Y" dstnodeid="69" dstpinname="Y">
   </LINK>
-  <LINK srcnodeid="75" srcpinname="Output" dstnodeid="71" dstpinname="Phase">
-  </LINK>
   <LINK srcnodeid="72" srcpinname="Output" dstnodeid="74" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="81" srcpinname="Output" dstnodeid="74" dstpinname="Index">
-  </LINK>
-  <LINK srcnodeid="73" srcpinname="Output" dstnodeid="75" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="78" srcpinname="Output" dstnodeid="75" dstpinname="Index">
   </LINK>
@@ -1559,5 +1573,15 @@
   <LINK srcnodeid="191" srcpinname="Output" dstnodeid="192" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="192" srcpinname="Output" dstnodeid="168" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="74" srcpinname="Output" dstnodeid="193" dstpinname="Go To Position">
+  </LINK>
+  <LINK srcnodeid="193" srcpinname="Position Out" dstnodeid="58" dstpinname="Phase">
+  </LINK>
+  <LINK srcnodeid="73" srcpinname="Output" dstnodeid="75" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="75" srcpinname="Output" dstnodeid="194" dstpinname="Go To Position">
+  </LINK>
+  <LINK srcnodeid="194" srcpinname="Position Out" dstnodeid="71" dstpinname="Phase">
   </LINK>
   </PATCH>
