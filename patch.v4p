@@ -1063,9 +1063,9 @@
   </PIN>
   <PIN pinname="Second" visible="1">
   </PIN>
-  <PIN pinname="Minute" visible="1">
+  <PIN pinname="Minute" visible="1" values="|12|">
   </PIN>
-  <PIN pinname="Hour" visible="1">
+  <PIN pinname="Hour" visible="1" values="|15|">
   </PIN>
   <PIN pinname="Day" visible="1">
   </PIN>
@@ -1283,7 +1283,7 @@
   </PIN>
   </NODE>
   <NODE id="186" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="1890" top="5925" width="0" height="0">
+  <BOUNDS type="Box" left="1995" top="2655" width="0" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -1369,7 +1369,7 @@
   </PIN>
   </NODE>
   <NODE id="195" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="15690" top="12525" width="0" height="0">
+  <BOUNDS type="Box" left="13815" top="12375" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -1401,7 +1401,7 @@
   </PIN>
   </NODE>
   <NODE id="201" nodename="Subtract (Value)" systemname="Subtract (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="16575" top="13230" width="100" height="100">
+  <BOUNDS type="Node" left="14700" top="13080" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -1562,6 +1562,98 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="235" nodename="GetValue (HTML)" systemname="GetValue (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7590" top="1875" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="236" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="6060" top="2490" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="237" nodename="GetElement (HTML)" systemname="GetElement (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6630" top="1110" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Selector" visible="1" values="|#imman|">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Refresh" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="238" nodename="Separate (String)" systemname="Separate (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7035" top="3375" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Intersperse" visible="1" values="|Colon|">
+  </PIN>
+  <PIN pinname="Intersperse String" visible="1">
+  </PIN>
+  <PIN pinname="Ignore between" visible="1">
+  </PIN>
+  <PIN pinname="Keep Quotes" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="239" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7185" top="4140" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="240" nodename="GetSlice (String)" systemname="GetSlice (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7710" top="5460" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Bin Size" visible="1">
+  </PIN>
+  <PIN pinname="Index" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="241" nodename="AsValue (String)" systemname="AsValue (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7200" top="4770" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Default" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="242" nodename="AsValue (String)" systemname="AsValue (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="7725" top="6090" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Default" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="15" srcpinname="Output" dstnodeid="4" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="7" srcpinname="Layers Out" dstnodeid="8" dstpinname="Element">
@@ -1653,8 +1745,6 @@
   <LINK srcnodeid="102" srcpinname="Transform Out" dstnodeid="98" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="100" srcpinname="Output" dstnodeid="99" dstpinname="Input 1">
-  </LINK>
-  <LINK srcnodeid="106" srcpinname="Element Slot 2" dstnodeid="107" dstpinname="Parent">
   </LINK>
   <LINK srcnodeid="107" srcpinname="Layers Out" dstnodeid="54" dstpinname="Parent Element">
   </LINK>
@@ -1831,5 +1921,25 @@
   <LINK srcnodeid="217" srcpinname="Transform Out" dstnodeid="85" dstpinname="Transform In">
   </LINK>
   <LINK srcnodeid="217" srcpinname="Transform Out" dstnodeid="57" dstpinname="Transform In">
+  </LINK>
+  <LINK srcnodeid="235" srcpinname="Output" dstnodeid="236" dstpinname="Input String">
+  </LINK>
+  <LINK srcnodeid="237" srcpinname="Layers Out" dstnodeid="235" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="106" srcpinname="Element Slot 2" dstnodeid="107" dstpinname="Parent">
+  </LINK>
+  <LINK srcnodeid="238" srcpinname="Output" dstnodeid="239" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="238" srcpinname="Output" dstnodeid="240" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="239" srcpinname="Output" dstnodeid="241" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="241" srcpinname="Output" dstnodeid="153" dstpinname="Hour">
+  </LINK>
+  <LINK srcnodeid="240" srcpinname="Output" dstnodeid="242" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="242" srcpinname="Output" dstnodeid="153" dstpinname="Minute">
+  </LINK>
+  <LINK srcnodeid="235" srcpinname="Output" dstnodeid="238" dstpinname="Input">
   </LINK>
   </PATCH>
