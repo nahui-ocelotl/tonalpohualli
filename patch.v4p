@@ -729,11 +729,11 @@
   </PIN>
   </NODE>
   <NODE id="98" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="14595" top="20940" width="100" height="100">
+  <BOUNDS type="Node" left="14595" top="21645" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|0.3800000000000001|">
+  <PIN pinname="X" visible="1" values="|0.1|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|-1.1600000000000006|">
   </PIN>
@@ -1263,7 +1263,7 @@
   </PIN>
   </NODE>
   <NODE id="188" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="5760" top="8820" width="0" height="0">
+  <BOUNDS type="Box" left="4830" top="9240" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -1283,7 +1283,7 @@
   </PIN>
   </NODE>
   <NODE id="190" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="10380" top="7650" width="0" height="0">
+  <BOUNDS type="Box" left="9435" top="9345" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -1419,7 +1419,7 @@
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|0.3800000000000002|">
+  <PIN pinname="X" visible="1" values="|0.1|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|-1.2900000000000007|">
   </PIN>
@@ -1503,11 +1503,11 @@
   </PIN>
   </NODE>
   <NODE id="216" nodename="Translate (Transform)" systemname="Translate (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="18450" top="26160" width="100" height="100">
+  <BOUNDS type="Node" left="18450" top="26145" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Transform In" visible="1">
   </PIN>
-  <PIN pinname="X" visible="1" values="|2.2499999999999982|">
+  <PIN pinname="X" visible="1" values="|1.25|">
   </PIN>
   <PIN pinname="Y" visible="1" values="|-4.459999999999988|">
   </PIN>
@@ -1736,6 +1736,18 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="269" nodename="Subtract (Value)" systemname="Subtract (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6195" top="7800" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|0.4600000000000002|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="15" srcpinname="Output" dstnodeid="4" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="8" srcpinname="Output" dstnodeid="9" dstpinname="Input">
@@ -1882,10 +1894,6 @@
   </LINK>
   <LINK srcnodeid="165" srcpinname="Output" dstnodeid="162" dstpinname="Year">
   </LINK>
-  <LINK srcnodeid="162" srcpinname="Time" dstnodeid="166" dstpinname="Input 2">
-  </LINK>
-  <LINK srcnodeid="166" srcpinname="Output" dstnodeid="159" dstpinname="Input 1">
-  </LINK>
   <LINK srcnodeid="166" srcpinname="Output" dstnodeid="103" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="168" srcpinname="Output" dstnodeid="159" dstpinname="Input 2">
@@ -1895,8 +1903,6 @@
   <LINK srcnodeid="25" srcpinname="Output" dstnodeid="27" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="25" srcpinname="Output" dstnodeid="26" dstpinname="Input">
-  </LINK>
-  <LINK srcnodeid="153" srcpinname="Time" dstnodeid="166" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="103" srcpinname="Output" dstnodeid="174" dstpinname="Input 1">
   </LINK>
@@ -1928,13 +1934,7 @@
   </LINK>
   <LINK srcnodeid="8" srcpinname="Output" dstnodeid="186" dstpinname="Input String">
   </LINK>
-  <LINK srcnodeid="166" srcpinname="Output" dstnodeid="188" dstpinname="Y Input Value">
-  </LINK>
   <LINK srcnodeid="153" srcpinname="Time" dstnodeid="189" dstpinname="Y Input Value">
-  </LINK>
-  <LINK srcnodeid="162" srcpinname="Time" dstnodeid="190" dstpinname="Y Input Value">
-  </LINK>
-  <LINK srcnodeid="162" srcpinname="Time" dstnodeid="168" dstpinname="Input 1">
   </LINK>
   <LINK srcnodeid="191" srcpinname="Output" dstnodeid="192" dstpinname="Input 1">
   </LINK>
@@ -2022,8 +2022,6 @@
   </LINK>
   <LINK srcnodeid="256" srcpinname="Output" dstnodeid="257" dstpinname="Input">
   </LINK>
-  <LINK srcnodeid="257" srcpinname="Output" dstnodeid="162" dstpinname="Hour">
-  </LINK>
   <LINK srcnodeid="253" srcpinname="Layers Out" dstnodeid="258" dstpinname="Element">
   </LINK>
   <LINK srcnodeid="259" srcpinname="Style Out" dstnodeid="258" dstpinname="Style">
@@ -2039,5 +2037,21 @@
   <LINK srcnodeid="263" srcpinname="Output" dstnodeid="262" dstpinname="Input">
   </LINK>
   <LINK srcnodeid="262" srcpinname="Output" dstnodeid="162" dstpinname="Minute">
+  </LINK>
+  <LINK srcnodeid="166" srcpinname="Output" dstnodeid="159" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="166" srcpinname="Output" dstnodeid="188" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="257" srcpinname="Output" dstnodeid="162" dstpinname="Hour">
+  </LINK>
+  <LINK srcnodeid="162" srcpinname="Time" dstnodeid="190" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="162" srcpinname="Time" dstnodeid="168" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="162" srcpinname="Time" dstnodeid="166" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="153" srcpinname="Time" dstnodeid="269" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="269" srcpinname="Output" dstnodeid="166" dstpinname="Input 1">
   </LINK>
   </PATCH>
